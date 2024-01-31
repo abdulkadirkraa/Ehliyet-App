@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category"
+        android:text="Kategori: Trafik ve Çevre"
+        android:textSize="20sp"
+        android:layout_marginStart="12dp"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:id="@+id/soru_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="Şok pozisyonunda hastanın ayaklarının yukarıya kaldırılmasının amacı nedir?"/>
+
+    <ImageView
+        android:id="@+id/soru_imageview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/opAlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:boxStrokeColor="@color/blue2"
+        app:boxStrokeWidth="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opA_tv"
+            android:text="Sindirime yardımcı olmak"
+            android:textSize="20sp"
+            android:background="@drawable/op_bg"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:padding="4dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/opBlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:boxStrokeColor="@color/blue2"
+        app:boxStrokeWidth="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opB_tv"
+            android:text="Sindirime yardımcı olmak"
+            android:textSize="20sp"
+            android:background="@drawable/op_bg"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:padding="4dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/opClayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:boxStrokeColor="@color/blue2"
+        app:boxStrokeWidth="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opC_tv"
+            android:text="Sindirime yardımcı olmak"
+            android:textSize="20sp"
+            android:background="@drawable/op_bg"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:padding="4dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/opDlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:boxStrokeColor="@color/blue2"
+        app:boxStrokeWidth="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opD_tv"
+            android:text="Sindirime yardımcı olmak"
+            android:textSize="20sp"
+            android:background="@drawable/op_bg"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:padding="4dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303139243512",
+    "project_id": "ehliyet2024-b0017",
+    "storage_bucket": "ehliyet2024-b0017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303139243512:android:3511db9c7642c1c318020d",
+        "android_client_info": {
+          "package_name": "com.abdulkadirkara.ehliyethazirlik2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA4LGjJaIU8fEMLEB7O5I5JRCCX9lzF6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
